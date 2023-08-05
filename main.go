@@ -2,8 +2,9 @@ package main
 
 import "fmt"
 
-func main () {
+func main() {
 	for i := 'a'; i <= 'z'; i++ {
 		fmt.Print(string(i))
 	}
+	fmt.Println("Hello, it my test")
 }
